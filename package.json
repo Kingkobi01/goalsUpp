@@ -1,0 +1,29 @@
+{
+  "name": "goalsupp",
+  "version": "1.0.0",
+  "description": "A Goalsetter app ",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon backend/server.js",
+    "start": "node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Kingkobi01/goalsUpp.git"
+  },
+  "author": "Kwabena Boakye",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kingkobi01/goalsUpp/issues"
+  },
+  "homepage": "https://github.com/Kingkobi01/goalsUpp#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.2"
+  }
+}
